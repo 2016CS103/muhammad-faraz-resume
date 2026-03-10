@@ -1,0 +1,185 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Muhammad Faraz
+title: Teaching Fellow
+email: muhammadfaraz840@gmail.com
+phone: (+92) 3246722181
+website: https://www.linkedin.com/in/muhammad-faraz-553b0a111/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: 2016CS103
+linkedin_username: muhammad-faraz-553b0a111
+
+# Additional icon links
+additional_links: []
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Teaching Fellow and Computer Science Lecturer with expertise in programming, data structures, and machine learning. MPhil in Computer Science from University of the Punjab, with research focus on Urdu text recognition and computer vision.
+
+  Passionate about educating the next generation of developers and building AI-powered solutions. Skilled in Python, TensorFlow, deep learning, and mobile app development.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Lahore University of Management Sciences
+        sub_title: Teaching Fellow
+        caption: July 2024 – Present
+        quote: >
+          Leading lectures, labs, and tutorials on programming and problem-solving.
+        description: |
+          Conduct lectures, labs, and tutorials on programming and problem-solving. Develop course materials, assignments, and assessments. Mentor students on projects and provide feedback. Assist faculty in course planning and guide students in debugging and implementing programming concepts.
+      - layout: right
+        title: University of Engineering and Technology, Lahore
+        sub_title: Computer Science Lecturer
+        caption: June 2023 – June 2024
+        quote: >
+          Delivered lectures on core computing subjects including programming and data structures.
+        description: |
+          Delivered lectures on core computing subjects. Designed and evaluated assignments, quizzes, and exams. Supervised student projects. Conducted lab sessions and hands-on programming exercises. Provided academic counseling and mentorship. Assisted in curriculum development.
+      - layout: right
+        title: National College of Business Administration and Economics
+        sub_title: Computer Science Lecturer
+        caption: November 2022 – June 2023
+        quote: >
+          Taught computing subjects including programming and data structures.
+        description: |
+          Delivered lectures on computing subjects. Designed and evaluated assignments, quizzes, and exams. Supervised student projects.
+      - layout: right
+        title: Information Technology University
+        sub_title: Teaching Assistant
+        caption: September 2021 – July 2022
+        quote: >
+          Data Structures & Algorithms and Object-Oriented Programming courses.
+        description: |
+          Conducted lab sessions and guided students on implementing key concepts. Assisted in grading assignments, quizzes, and exams. Helped students with debugging and optimizing code. Provided one-on-one academic support. Organized tutorials and problem-solving sessions.
+      - layout: right
+        title: Center for Language Engineering
+        sub_title: Research Officer
+        caption: July 2020 – September 2020
+        quote: >
+          Research in Machine Learning and Computer Vision.
+        description: |
+          Conducted research in Machine Learning and Computer Vision. Developed deep learning models for NLP and image processing. Worked on Urdu text recognition and NLP applications. Assisted in data collection, preprocessing, and model evaluation.
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Urdu Text Recognition from Scene Images
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/2016CS103
+        quote: >
+          Pioneering end-to-end Urdu text recognition for natural scene images. 98% character and 95% word recognition rate.
+        description: |
+          Developed end-to-end Urdu text recognition system addressing the lack of benchmark datasets. Created synthetic dataset (MUSID) with 16 million cropped word images across three fonts. Implemented deep learning architectures (CNN + BLSTM + CTC, InceptionV3, VGG-16, MobileNet). Expertise in computer vision, deep learning, and dataset generation for cursive script recognition.
+      - layout: left
+        title: Driver Behaviour Monitoring System
+        quote: >
+          Smartphone-based driver behavior monitoring to reduce road accidents. 95% validation accuracy.
+        description: |
+          Low-cost smartphone-based system for fleet management, insurance, and traffic regulation. Developed dataset of 18,000+ images across 11 distraction categories. 2D CNN with TensorFlow achieving 95% validation accuracy. Integrated into Android app using TensorFlow Lite. Real-time activity recognition and drowsiness alerts using smartphone sensors.
+      - layout: left
+        title: Classification of Diabetic Retinopathy Using Inception-V3
+        quote: >
+          Automated detection for diabetic retinopathy. 93.71% accuracy.
+        description: |
+          Automated detection system for diabetic retinopathy—a leading cause of blindness in diabetics. Classified retinal fundus images into five severity categories. Applied preprocessing, augmentation, and transfer learning with TensorFlow/Keras.
+      - layout: left
+        title: Development Projects
+        link: https://github.com/2016CS103
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/2016CS103
+        quote: >
+          Academic and personal software development projects.
+        description: |
+          Mobile Phone Web Store (ASP.NET MVC), Student Management System (Asp.net MVC), Innovator-Investor (C# Desktop), Lab Management System (C#), BLE Device Scanner (Android), Connect-3 game (Android), Accurate Location finder (Android).
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: University of the Punjab, Lahore
+        sub_title: MPhil. Computer Science
+        caption: December 2020 – September 2022
+        link: https://www.pu.edu.pk/
+        quote: >
+          Final grade: 3.97 | Thesis: Urdu Text Recognition from Scene Images
+        description: |
+          MPhil in Computer Science with focus on computer vision and Urdu NLP. Thesis on Urdu text recognition from natural scene images.
+      - layout: top-right
+        title: University of Engineering and Technology, Lahore
+        sub_title: BSc. Computer Science
+        caption: October 2016 – August 2020
+        link: https://www.uet.edu.pk/
+        quote: >
+          Final grade: 3.484 | Thesis: Driver Behaviour Monitoring System
+        description: |
+          BSc in Computer Science. Thesis on smartphone-based driver behavior monitoring system.
+  - title: Honours and Awards
+    layout: list
+    content:
+      - layout: left
+        title: First Position in MPhil. Computer Science
+        description: |
+          Secured first position in MPhil. Computer Science program.
+      - layout: left
+        title: Shield of Appreciation, ITECH
+        description: |
+          Received for successfully organizing the Research Poster Competition.
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Technologies:** Python, TensorFlow, C#, ASP.NET, SQL, Java, C++. Familiar with VCS (Git, GitHub with terminal and GUI).
+
+      **Languages:** Urdu (native), English.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
