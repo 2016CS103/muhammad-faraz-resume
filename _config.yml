@@ -34,9 +34,7 @@ additional_links: []
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://media.licdn.com/dms/image/v2/D4D03AQEPrAcOvs0RDg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693071704449?e=1781136000&v=beta&t=-3mm66PrYPXTATTi8FbrDCatHWXY7cM92nlC_k9Xr44
 about_content: | # this will include new lines to allow paragraphs
-  Teaching Fellow and Computer Science Lecturer with expertise in programming, data structures, and machine learning. MPhil in Computer Science from University of the Punjab, with research focus on Urdu text recognition and computer vision.
-
-  Passionate about educating the next generation of developers and building AI-powered solutions. Skilled in Python, TensorFlow, deep learning, and mobile app development.
+  Computer scientist and dedicated educator with five years of professional teaching experience and expertise in Computer Vision, Deep Learning, and Natural Language Processing. B.Sc. Computer Science from UET Lahore (GPA 3.484/4.0) with a thesis on CNN-based driver behavior monitoring systems (95% validation accuracy). Professional experience includes teaching core CS courses (Programming Fundamentals, Data Structures, Algorithms) at multiple institutions, curriculum development, and mentoring 50+ students annually. Passionate researcher with a focus on scene text recognition, multimodal document understanding, and practical AI applications—particularly for low-resource languages like Urdu. Currently Teaching Fellow at LUMS; committed to conducting impactful research that addresses real-world challenges, advancing computer science education, and fostering inclusive learning communities.
 
 content:
   - title: Experience
@@ -144,10 +142,10 @@ content:
   - title: Honours and Awards
     layout: list
     content:
-      - layout: left
-        title: First Position in MPhil. Computer Science
-        description: |
-          Secured first position in MPhil. Computer Science program.
+  #    - layout: left
+   #     title: First Position in MPhil. Computer Science
+    #    description: |
+     #     Secured first position in MPhil. Computer Science program. 
       - layout: left
         title: Shield of Appreciation, ITECH
         description: |
