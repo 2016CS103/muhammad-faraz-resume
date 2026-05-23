@@ -32,7 +32,7 @@ additional_links: []
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: https://media.licdn.com/dms/image/v2/D4D03AQEPrAcOvs0RDg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693071704449?e=1781136000&v=beta&t=-3mm66PrYPXTATTi8FbrDCatHWXY7cM92nlC_k9Xr44
 about_content: | # this will include new lines to allow paragraphs
   Teaching Fellow and Computer Science Lecturer with expertise in programming, data structures, and machine learning. MPhil in Computer Science from University of the Punjab, with research focus on Urdu text recognition and computer vision.
 
@@ -122,15 +122,16 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: University of the Punjab, Lahore
-        sub_title: MPhil. Computer Science
-        caption: December 2020 – September 2022
-        link: https://www.pu.edu.pk/
-        quote: >
-          Final grade: 3.97 | Thesis: Urdu Text Recognition from Scene Images
-        description: |
-          MPhil in Computer Science with focus on computer vision and Urdu NLP. Thesis on Urdu text recognition from natural scene images.
+    
+    #  - layout: top-right
+     #   title: University of the Punjab, Lahore
+      #  sub_title: MPhil. Computer Science
+      #  caption: December 2020 – September 2022
+      #  link: https://www.pu.edu.pk/
+       # quote: >
+        #  Final grade: 3.97 | Thesis: Urdu Text Recognition from Scene Images
+        #description: |
+         # MPhil in Computer Science with focus on computer vision and Urdu NLP. Thesis on Urdu text recognition from natural scene images.
       - layout: top-right
         title: University of Engineering and Technology, Lahore
         sub_title: BSc. Computer Science
